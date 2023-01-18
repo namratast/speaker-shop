@@ -1,0 +1,160 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 3rem 3rem;
+    max-width: 102rem;
+    font-size: 1.5rem;
+}
+   
+.speaker {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 25px;
+}
+
+h3 {
+    margin: -30px;
+    margin-left:30px;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+   
+}
+
+li {
+    list-style-type: none;
+   
+}
+
+
+/* main */
+
+main {
+    margin: 0 auto;
+    padding: 3rem 3rem;
+    max-width: 102rem;
+}
+
+.matter {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding:5rem 3rem ;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+
+.matter div {
+    align-self: flex-end;
+}
+
+a.button {
+    text-transform: uppercase;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0;
+    align-items: center;
+    width: fit-content;
+    display: flex;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+article {
+    height: 40rem;
+    width: 30rem;
+    padding: 30px;
+    font-size: 12px;
+    background-size: cover;
+    background-position: center;
+}
+
+.article1 {
+    background-image: url(./images/white-box.jpg);
+}
+
+.article2 {
+    background-image: url(./images/room.jpg);
+    background-position: left center;
+}
+
+.article3 {
+    background-image: url(./images/black-white.jpg);
+}
+
+article h2 {
+    text-decoration: none;
+    margin: 3rem 0;
+    padding:0 3rem;
+    text-shadow: -5px 0px 20px rgb(47, 47, 47);
+}
+
+h2 {
+    color: aliceblue;
+    
+}
+
+article img {
+    background: white;
+    border-radius: 50%;
+    height: 3rem;
+    padding: 5px;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.25);
+}
+
+article img:hover {
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 1);
+}
+
+footer {
+    display: flex;
+    font-size: 1.3rem;
+    color: grey;
+    padding: 2.5rem;
+    justify-content: center;
+  }
+
+
+
+
+   
+    
